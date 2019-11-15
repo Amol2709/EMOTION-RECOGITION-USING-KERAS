@@ -7,7 +7,7 @@ After downloading dataset create following folders:
 
 --fer2013
 
-|  |--fer2013 {In this folder keep .csv file}
+|  |--fer2013 {In this folder keep .csv file ,in my repositories I Have deliberately not kept ...I urge you to download dataset krom kaggle and paste csv file in this directory}
         
 |  |--hdf5    {We will convert images into hdf5 format and store here }
 
@@ -18,7 +18,7 @@ Now open your command prompt go to directory where you keep build_dataset.py and
 
 python build_dataset.py
 
-After executing it, you will find that in directory fer2013/hdf5 three hdf5 file will be generated.
+After executing it, you will find that in directory fer2013/hdf5 three hdf5 file(test.hdf5,train.hdf5,validation.hdf5) will be generated. I have not uploaded these thre
 
 
 ##  Task 2: Train Model from scratch
