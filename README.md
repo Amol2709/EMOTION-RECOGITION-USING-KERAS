@@ -6,6 +6,7 @@ I strongly recomend you to follow exact directory structure the way I have folll
 After downloading dataset create following folders:
 
 --fer2013
+
 |  |--fer2013 {In this folder keep .csv file}
         
 |  |--hdf5    {We will convert images into hdf5 format and store here }
