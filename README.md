@@ -18,7 +18,7 @@ Now open your command prompt go to directory where you keep build_dataset.py and
 
 python build_dataset.py
 
-After executing it, you will find that in directory fer2013/hdf5 three hdf5 file(test.hdf5,train.hdf5,validation.hdf5) will be generated. I have not uploaded these thre
+After executing it, you will find that in directory fer2013/hdf5 three hdf5 file(test.hdf5,train.hdf5,validation.hdf5) will be generated. I have not uploaded these three files(it's size  is 700mb).... .
 
 
 ##  Task 2: Train Model from scratch
