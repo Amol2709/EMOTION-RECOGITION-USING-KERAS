@@ -6,9 +6,9 @@ I strongly recomend you to follow exact directory structure the way I have folll
 After downloading dataset create following folders:
 
 --fer2013
-|  |--fer2013 {In this folder keep .csv file}
-|  |--hdf5    {We will convert images into hdf5 format and store here }
-|  |--output  {we will save training plot into output directory}
+        |  |--fer2013 {In this folder keep .csv file}
+        |  |--hdf5    {We will convert images into hdf5 format and store here }
+        |  |--output  {we will save training plot into output directory}
 
 
 Now open your command prompt go to directory where you keep build_dataset.py and write these:
