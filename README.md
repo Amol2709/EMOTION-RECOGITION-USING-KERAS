@@ -47,6 +47,26 @@ EXample: let's say you want to restart training after 20 epoch. open command pro
 
           python train_recognizer.py --checkpoints checkpoints --model checkpoints/epoch_20.hdf5 --start 20
          
-# At Last .....RESULT:
+# At Last ....To see on your own images and videos follow these step:
+
+1. If you want to detect emotion on images:
+
+Run emotion_detector_image.py , write following line in command prompt:
+
+python emotion_detector_image.py --cascade haarcascade_frontalface_default.xml --model checkpoints/epoch_75.hdf5 -- image NAME OF IMAGE
+
+You can parse your best epoch....
+
+Note: If you have single face in image then .....all probability correspond to each emotion will make sense,if you have multiple faces in image then showing probabilty correspond to each emotion will look very clumpsy....that's why I have not did that...Any way when you get window which shows probability of different emotion that window is only relevant when you haveonly one face in an image.
+
+2. If you want to detect emotion on video:
+
+=> for web camera:
+
+python emotion_detector.py --cascade haarcascade_frontalface_default.xml --model checkpoints/epoch_75.hdf5 
+
+=> for mp4 video:
+python emotion_detector_.py --cascade haarcascade_frontalface_default.xml --model checkpoints/epoch_75.hdf5 -- video video.mp4
+
 
 
